@@ -1,0 +1,50 @@
+h1 {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Color de texto blanco */
+    text-align: center; /* Centrar el contenido */
+    padding: 50px 0;
+    font-size: 36px; /* Tamaño de fuente grande */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: rgb(75, 155, 245); 
+    text-decoration: none; 
+    border: 5px solid #21282b;  
+}
+li {
+    display: inline;
+    border: 3px solid #21282b; /* borde sólido de 1px de ancho */
+    padding: 0px; /* espacio de relleno alrededor del texto */
+    display: inline-block; /* para que el contenedor se ajuste al contenido */
+    text-decoration: none;  
+}
+li{
+    display: inline-block;
+    padding: 7px;
+    text-decoration: none;
+    color: #333;
+}
+li:hover{
+    background-color: #ffffff;
+    color: rgb(120, 129, 200);
+    text-decoration: none;
+}
+.Inicio {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 300; 
+    text-decoration: none;  
+}
+.logo {
+    float: right;
+    height: 53px;
+    margin-right: 20px;
+}
